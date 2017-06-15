@@ -6,7 +6,7 @@
 }
 /* header */
 
-header{
+.bg-header{
 	background-image: url('../img/bg-header.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -14,7 +14,24 @@ header{
 	text-align: center;
 }
 
-header img{
-	margin-top: 200px;
+.our-values{
+    background:white;
+    height:10vh;
 }
 
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.carrusel h1{
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}

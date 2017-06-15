@@ -7,9 +7,10 @@
 	<title>culinary-lab</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/stype.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+ <!--Header -->
 	<!--Utilizo Navbar-default y selecciono los componentes que necesito-->
 	<nav class="navbar navbar-default navbar-fixed-top">
   		<div class="container-fluid">
@@ -24,7 +25,7 @@
       		</div>
      <!-- Brand Image --> 	
       			<a class="navbar-brand" href="#">
-        		<img alt="Brand" src="img/logo.png">
+        		<img alt="Brand" src="assets/img/logo.png">
       			</a>
     		<!--  /.brand-imagen-->
   		</div>			
@@ -41,9 +42,6 @@
    		 </div><!-- /.navbar-collapse -->
   	</div><!-- /.container-fluid -->
 </nav> <!-- /.navbar-default-->
-
-  <!--Header -->
-	<!--Imagen cover <poner backgroud como css con un clase-->
   <section> class="bg-header">
     <div class="container">
       <div class="row">
@@ -63,21 +61,16 @@
   <section class="our-values">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h2>OUR VALUES</h2>
-          <div class="lines">
-            <div class="first-line"></div>
-            <div class="second-line"></div>
-          </div>
-          <p>We create flavorsome, traditional dishes using fresh, local ingredientes.</p>
+        <div class="col-md-12">
+          <h1>OUR VALUES</h1>
+          <small>We create flavorsome, traditional dishes using fresh, local ingredientes.</small>
         </div>
       </div>
-
       <div class="row">
         <div class="our-values">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="col-md-4 col-lg-4 icon">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <i class="fa fa-shopping-cart img-circle img-thumbnail" aria-hidden="true"></i>
             </div>
             <div class="col-md-8 col-lg-8">   
               <h4>INGREDIENTS</h4>
@@ -94,7 +87,7 @@
         <div class="our-values">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="col-md-4 col-lg-4 icon">
-              <i class="fa fa-cutlery" aria-hidden="true"></i>
+              <i class="fa fa-cutlery img-circle img-thumbnail" aria-hidden="true"></i>
             </div>
             <div class="col-md-8 col-lg-8">   
               <h4>TECHNIQUE</h4>
@@ -111,7 +104,7 @@
         <div class="our-values">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="col-md-4 col-lg-4 icon">
-              <i class="fa fa-users" aria-hidden="true"></i>
+              <i class="fa fa-users img-circle img-thumbnail" aria-hidden="true"></i>
             </div>
             <div class="col-md-8 col-lg-8">   
               <h4>COMMUNITY</h4>
@@ -128,7 +121,7 @@
     </div><!-- /.cierre container -->
   </section><!-- /.cierre section -->
 
-<!-- Sec03 TRULY GREA-->
+<!-- Sec03 TRULY GREAt-->
  <div class="bg-header">
   <div class="container">
         <img  alt="torta-milhojas" src="assets/img/bg-quote.jpg">
@@ -140,12 +133,112 @@
       </div>
 
   <!-- Sec04 PEOPLE-->
-  <!-- Sec05 PRESS-->
-  <!-- Sec06 SUSCRIPCION-->
-  <!-- Sec05 HOURS-->
-  <!-- Sec05 MENU-->
-  <!-- Sec05 FOOTER-->
+  <section class="">
+  <div class="container">
+    <div class="row">
+      <h2>People</h2>
+    </div>
+  </div>
+</section>
 
+
+  <!-- Sec05 PRESS-->
+<section class="carrusel">
+  <div class="container">
+    <div class="row">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>PRESS</h1>
+              <p>Here's what the critics are saying.</p>
+              <h2>"A Unique blend on flavors at this restaurant made for an unforgettable culinary adventure."</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <img src="assets/img/testimonial_1.jpg" class="img-circle" width=50>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+      </div>
+      <div class="item">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>PRESS</h1>
+              <p>Here's what the critics are saying.</p>
+              <h2>"A Unique blend on flavors at this restaurant made for an unforgettable culinary adventure."</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <img src="assets/img/testimonial_1.jpg" class="img-circle" width=50>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+      </div>
+      ...
+    </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      
+    </div>
+  </div>
+</section>
+
+  <!-- Sec06 SUSCRIPCION-->
+<section class="">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</section>
+
+  <!-- Sec07 HOURS-->
+  <section class="">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</section>
+  <!-- Sec08 MENU-->
+<section class="">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</section>
+  <!-- Sec09 FOOTER-->
+<i class="fa fa-phone" aria-hidden="true"></i>
+
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-linkedin" aria-hidden="true"></i>
 
 
 
